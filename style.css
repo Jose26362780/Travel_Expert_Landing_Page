@@ -1,0 +1,86 @@
+* {
+   margin:0;
+   box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --button-color:#ffff;
+  --span-color: #DB2777;
+  --text-color: #2d2e2fe6;
+  --base-color: #151718;
+}
+
+body {
+  text-align: center;
+  padding-top: 28rem;
+  background-image: url(https://i.ibb.co/KxWGBVq/image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+
+  height: 72vh;
+}
+
+
+
+span, button {
+  color: var(--span-color);
+}
+
+h1 {
+  color: var(--base-color);
+  font-size: 6.4rem;
+}
+
+p {
+   color: var(--text-color);
+   font-size: 2.6rem;
+}
+
+.buttons {
+  display: block;
+  align-items: center;
+  margin-top: 7.5rem;
+  padding: 1.6rem 3.2rem;
+  
+}
+
+
+
+#btn-first {
+  color: var(--button-color);
+  background: var(--span-color);
+  border-radius: 8rem;
+  padding: 1.6rem 3.2rem;
+}
+
+#btn-first:hover {
+  background: rgb(197, 33, 142);
+  border-radius: 8rem;
+  transition: all 200ms ease-out;
+
+}
+
+a {
+  display: inline;
+  padding: 1.2rem 3.2rem;
+  font-weight: 700;
+  font-size: 3rem;
+  text-decoration: none;
+  gap: 5rem;
+}
+
+a:hover {
+  background: rgb(237, 150, 150);
+  border-radius: 8rem;
+  transition: .3s;
+}
+
+
+
+
